@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/06a6797c-1674-4f74-b1a0-56607613a699/deploy-status)](https://app.netlify.com/sites/gallant-boyd-a74ca0/deploys)
+
 # Barber
 Barber is a minimal blog theme built for Jekyll. The blog theme features a masonry grid, endless scrolling, and page transitions. 💈 Barber is also available for [Ghost](https://github.com/samesies/barber-ghost).
 
