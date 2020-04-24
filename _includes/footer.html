@@ -1,20 +1,23 @@
 <!-- The footer at the very bottom of the screen -->
-<footer class="footer section-padding">
+<footer class="footer section-padding--none">
+{% comment %}
   <div class="grid">
     <div class="subscribe" id="subscribe">
       <div class="subscribe__container">
         <span class="subscribe__title">Subscribe</span>
         <p class="subscribe__text">Get a weekly email of posts I’ve added to the site.</p>
-        {% include subscribe-form.html %}
+    {% include subscribe-form.html %}
       </div>
     </div>
 
     <hr class="sep--white"/>
-
+{% endcomment %}
     <div class="footer__container">
       {% tags_list :threshold => 1, :sort_by => count, :order_by => desc, :limit => 5 %}
 
+{% comment %}
       {% include social.html %}
+{% endcomment %}
     </div>
   </div>
 </footer>
