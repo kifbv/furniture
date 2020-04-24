@@ -1,11 +1,10 @@
 <nav>
   <ul class="header__list">
     <!-- <li><a href="{{ '/' | prepend: site.baseurl }}">Stories</a></li> -->
-    <!-- <li><a href="{{ '/style-guide' | prepend: site.baseurl }}">Style Guide</a></li> -->
     {% for social in site.social %}
       <li><a href="{{ social['url'] }}" target="_blank"><i class="fa fa-{{ social['name'] }}"></i></a></li>
     {% endfor %}
-    <li><i class="fa fa-envelope-o"></i></li>
-    <!-- <li><span class="popup__open">Contact</span></li> -->
+    <li><span class="popup__open"><i class="fa fa-envelope-o"></i></span></li>
+    <li><a href="{{ '/style-guide' | prepend: site.baseurl }}"><i class="fa fa-question"></i></a></li>
   </ul>
 </nav>
