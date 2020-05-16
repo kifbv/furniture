@@ -5,11 +5,11 @@ permalink: /:year/:month/:day/:title/
 google_analytics: 
 
 name: Franck Ratier
-title: Lulu Studio
+title: Lulu Design Studio
 description: >
-  Design. Innovation. Engeneering
+  Design. Innovation. Engeneering. Craftmanship.
 #url: 
-#twitter_username: thomasvaeth
+#twitter_username: 
 default_img: /assets/images/seo.jpg
 social:
   #- name: twitter
@@ -37,8 +37,8 @@ mailchimp_input: b_66ddf555dab480e6a8606430b_89b3ee034f
 # Author settings
 author:
   - name: Franck Ratier
-    bio: Franck Ratier was born in Paris and transplanted in Romania via the UK. He was an Electronics Engineer, a Bar Owner, a Linus Systems & AWS Cloud Engineer, but now he is a Designer & Maker.
-    #url: http://thomasvaeth.com
+    bio: Franck Ratier was born in Paris and transplanted in Romania via the UK. He was an Electronics Engineer, a Bar Owner, a Linux Systems & AWS Cloud Engineer, but now he is a Designer & Maker.
+    #url: http://franckratier.com
 
 # Pagination settings
 pagination:
@@ -59,7 +59,7 @@ autopages:
   tags:
     layouts: 
       - 'tag.html'
-    title: 'Lulu Design'
+    title: 'Lulu Studio Design'
     permalink: '/tag/:tag'
     slugify:
       mode: raw
